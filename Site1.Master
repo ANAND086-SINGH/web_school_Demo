@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="School_web.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <!--bootstrap css -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--Datatable css -->
+    <link href="data%20table/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <!--Fontawesome css -->
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <!--costumestylesheet css -->
+    <link href="bootstrap/css/customstylesheet.css" rel="stylesheet" />
+     <!--jquery .js-->
+    <script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+    <!--propper .js-->
+    <script src="bootstrap/js/popper.min.js"></script>
+    <!--bootstrap . js-->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
+   
+
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+
+            <div class="container>">
+                <img src="image/dmps.png" />
+                <div class="heading">
+            <i class="fa-solid fa-envelope"></i> dmpublicschoolparsia@gmail.com<br />
+                    <i class="fa-brands fa-facebook"></i>
+                 
+
+                </div>
+            </div>
+        </header>
+
+     
+        <nav>
+          
+            <label class="logo"> anand </label>
+            <ul>
+                <li><a href="#">home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">contact</a></li>
+                  <li><a href="#">service</a></li>
+            </ul>
+        </nav>
+      
+      <!--main content placeholder-->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+         <!--main content placeholder-->
+        <footer>
+            <p>&copy All right Reserved, <a class="footerlinks" href="#" target="_blank">Anand singh</a></p>
+        </footer>
+    </form>
+</body>
+   
+</html>
